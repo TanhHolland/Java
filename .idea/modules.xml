@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BT/BT.iml" filepath="$PROJECT_DIR$/BT/BT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laptrinhcoban.iml" filepath="$PROJECT_DIR$/Laptrinhcoban.iml" />
     </modules>
   </component>
