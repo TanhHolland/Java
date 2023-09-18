@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test {
+public class soxacach {
     static int[] a = new int[12];
     static int[] c = new int[12];
     static int t,n;
