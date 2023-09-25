@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MangDoiXung {
+public class mangDoiXung {
     public static String check(int[] a) {
         for (int i = 0; i < a.length/2; i++)
             if (a[i] != a[a.length - 1 - i]) {
