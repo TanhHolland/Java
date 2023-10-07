@@ -8,18 +8,19 @@ public class quayphai {
         int t = sc.nextInt();
         while (t-->0) {
             int n = sc.nextInt();
-            ArrayList<Integer> arr = new ArrayList<Integer>();
+            long[] a = new long[n];
+            long[] b = new long[n];
             for(int i = 0; i<n; i++) {
-                arr.add((int) sc.nextLong());
+                a[i] = sc.nextLong();
+                b[i] = a[i];
             }
-            int k = 0;
-            int size = arr.size();
-            while (arr.get(size-1) >= arr.get(size-2)) {
-                arr.add(arr.get(0));
-                arr.remove(0);
-                k++;
+            Arrays.sort(b);
+            for (int i = 0; i<n; i++) {
+                if (a[i] == b[0]) {
+                    System.out.println(i);
+                    break;
+                }
             }
-            System.out.println(k);
         }
     }
 }
